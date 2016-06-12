@@ -1,0 +1,10 @@
+{
+  "name": "roman-converter",
+  "version": "0.0.1",
+  "dependencies": {
+    "reflux": "^0.4.1",
+    "react": "^15.1.0",
+    "react-bootstrap": "^0.29.4",
+    "jquery": "^3.0.0"
+  }
+}
