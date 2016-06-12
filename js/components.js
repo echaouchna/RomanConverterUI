@@ -16,12 +16,7 @@
         },
         render: function() {
             var n = this.state.numbers;
-            // return (
-            //     <div>
-            //         <input type="text" value={n.arabic} onChange={this.convertArabicToRoman}></input>
-            //         <input type="text" value={n.roman} onChange={this.convertRomanToArabic}></input>
-            //     </div>
-            // );
+            
             var InputGroup = ReactBootstrap.InputGroup;
             var FormControl = ReactBootstrap.FormControl;
             var Alert = ReactBootstrap.Alert;
