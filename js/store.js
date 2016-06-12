@@ -1,11 +1,6 @@
 (function(Reflux, converterActions, global) {
     'use strict';
 
-    var person = {
-        name: "Nabil",
-        age: 29
-    };
-
     var numbers = {
         roman: "",
         arabic: "",
