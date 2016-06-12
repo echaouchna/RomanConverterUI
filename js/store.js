@@ -30,7 +30,11 @@
                     success: function(data) {
                         console.log("success");
                         console.log(JSON.stringify(data));
-                        numbers.arabic = data;
+                        if (data <= 3999) {
+                            numbers.arabic = data;
+                        } else {
+                            numbers.error = "Roman number should be smaller than MMMCMXCIX (3999)";
+                        }
                         self.trigger(numbers);
                     },
                     error: function(data) {
